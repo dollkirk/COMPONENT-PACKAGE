@@ -17,6 +17,9 @@ When trying to pass the boolean value from this TurretOn script to the other two
 
 ![Capture](https://user-images.githubusercontent.com/114989045/201912236-77443c27-1b4f-4ea1-840a-4996c37703a9.PNG)
 
+**PROBLEM:**
+I wanted the bullets fired to destroy after a set amount of time. I tried editing the update function in the BulletController script and thought creating a bulletTime float, decrementing it by time and setting that when this float is equal to 0, the clone gameobject of the instantiated bullet prefab would destroy by using clone.IsDestroyed. However, this did not work.
 
-
+**SOLUTION:**
+I asked a peer for some help. They showed me how creating a script for this destroy function would be the best way. I created a script called BulletDestroy and created an if statement to say that if bulletTime is less than or equal to 0, the gameobject that the script is on will destroy.
 
