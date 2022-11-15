@@ -23,3 +23,5 @@ I wanted the bullets fired to destroy after a set amount of time. I tried editin
 **SOLUTION:**
 I asked a peer for some help. They showed me how creating a script for this destroy function would be the best way. I created a script called BulletDestroy and created an if statement to say that if bulletTime is less than or equal to 0, the gameobject that the script is on will destroy.
 
+![Capture](https://user-images.githubusercontent.com/114989045/201926280-489aa458-71b4-4d19-bffb-aa389ec44922.PNG)
+
