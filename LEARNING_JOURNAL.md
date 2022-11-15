@@ -25,3 +25,11 @@ I asked a peer for some help. They showed me how creating a script for this dest
 
 ![Capture](https://user-images.githubusercontent.com/114989045/201926280-489aa458-71b4-4d19-bffb-aa389ec44922.PNG)
 
+**PROBLEM:**
+I wanted the turret to stop firing when the player has left the plane and plane area collider. So, I created an OnTriggerExit function and set the boolean variable turretOn to false. This did not work, as when the bullets were colliding with the area, it was setting turretOn as true due to the OnTriggerStay.
+
+**SOLUTION:**
+I created a tag called player and then created an if statement in both trigger functions to say if the collider tag is player, set the turretOn variable to true of false.
+
+![Capture](https://user-images.githubusercontent.com/114989045/201932010-4c647517-ab73-48a9-bd85-f6e854218fac.PNG)
+
