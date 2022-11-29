@@ -8,10 +8,7 @@
 ### TURRET ON:
 
 
-### BULLET CONTROLLER:
-
-
 ### BULLET DESTROY:
 
 
-### 
+### TIMER:
