@@ -33,3 +33,16 @@ I created a tag called player and then created an if statement in both trigger f
 
 ![Capture](https://user-images.githubusercontent.com/114989045/201932010-4c647517-ab73-48a9-bd85-f6e854218fac.PNG)
 
+**PROBLEM:**
+I wanted to make the amount of turrets accessed by the player editable. For example, if a user of the component package wanted to add or subtract turrets to the scene, the current amount of turrets will be accessed.
+
+**SOLUTION:**
+In the Timer script which is on the player object, I removed all of the variables referencing the TurretOn script for each turret and just created a list for all of them instead to count the amount of turrets.
+
+![Capture](https://user-images.githubusercontent.com/114989045/204537096-07dbfab2-6368-4a89-8a45-c3a9d68bc33e.PNG)
+
+In the Start function, I need to find the number of turrets in the list "TurretOnScript" using "AddRange" and to know what the turret objects are, I used "FindObjectsOfType<TurretOn>()". This basically means that count the objects in the list that are referencing the "TurretOn" script component.
+
+![Capture](https://user-images.githubusercontent.com/114989045/204538748-841bf1a4-addd-4b91-8132-6cf81e32e7ff.PNG)
+
+  
