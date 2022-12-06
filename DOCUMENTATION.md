@@ -17,5 +17,6 @@ This script destroys the bullet object that the script is attached to after a ce
 
 ### TIMER:
 This script finds the given time to countdown, the TextMeshPro object in the scene where it needs to display the time countdown, and all of the turret objects created in the scene that has the TurretOn script.
-When the user of this script enters play mode, the turret objects will be added to a list .
-Also, the 
+When the user of this script enters play mode, the turret objects will be added to a list of turrets that can be toggled on/off.
+The time countdown will start when the player object collides with a turret area collision. When the timer hits 0, it will switch the corresponding turret off.
+
