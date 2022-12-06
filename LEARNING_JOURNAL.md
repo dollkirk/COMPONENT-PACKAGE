@@ -41,7 +41,7 @@ In the Timer script which is on the player object, I removed all of the variable
 
 ![Capture](https://user-images.githubusercontent.com/114989045/204537096-07dbfab2-6368-4a89-8a45-c3a9d68bc33e.PNG)
 
-In the Start function, I need to find the script to find out how many turrets are in the scene so I used "AddRange" to add those found and to find the turret objects, I used "FindObjectsOfType<TurretOn>()". This finds all the objects referencing the "TurretOn" script
+In the Start function, I need to find the script to find out how many turrets are in the scene so I used "AddRange" to add those found and to find the turret objects, I used "FindObjectsOfType<TurretOn>()". This finds all the objects referencing the "TurretOn" script and adds them to the list on play.
 
 ![Capture](https://user-images.githubusercontent.com/114989045/204538748-841bf1a4-addd-4b91-8132-6cf81e32e7ff.PNG)
 
