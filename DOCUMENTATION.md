@@ -16,4 +16,4 @@ This script sets the turret to be off unless the player object enters with the f
 This script destroys the bullet object that the script is attached to after a certain amount of time. This should be attached to the bullet prefab and in the Inspector, the amount of time given till it destroys can be edited.
 
 ### TIMER:
-
+This script finds the given time to countdown, the TextMeshPro object in the scene where it needs to display the time countdown, and all of the turret objects created in the scene that has the TurretOn script.
